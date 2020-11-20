@@ -1,3 +1,5 @@
+package day_1;
+
 public class Main10 {
     public static void main(String[] args) {
         int arr[][] = {

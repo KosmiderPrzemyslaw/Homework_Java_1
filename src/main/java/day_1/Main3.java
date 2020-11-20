@@ -1,8 +1,10 @@
+package day_1;
+
 public class Main3 {
     public static void main(String[] args) {
 
 
-        int mainTab[] = new int[50];
+        int[] mainTab = new int[50];
 
         for (int i = 0; i <= 49; i++) {
             mainTab[i] = i;
