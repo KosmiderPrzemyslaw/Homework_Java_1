@@ -1,5 +1,6 @@
 import java.math.BigDecimal;
 import java.text.DecimalFormat;
+import java.util.Arrays;
 import java.util.Random;
 
 public class Main4 {
@@ -14,14 +15,18 @@ public class Main4 {
         }
         for (int randomNumber : randomNumbers
         ) {
+            Arrays.sort(randomNumbers);
+
             System.out.print(String.format("%03d \t", randomNumber));
         }
 
         System.out.println("\n----------------------");
         double d = 2.34468;
         DecimalFormat dFormat = new DecimalFormat("##.000");
-        dFormat.format(d);
+        DecimalFormat decimalFormat = new DecimalFormat("##.00");
+
         System.out.println(dFormat.format(d));
+        System.out.println(decimalFormat.format(d));
 
         BigDecimal a = new BigDecimal(123.13698);
         BigDecimal roundOff = a.setScale(2, BigDecimal.ROUND_HALF_EVEN);
