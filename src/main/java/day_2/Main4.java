@@ -4,10 +4,10 @@ public class Main4 {
     public static void main(String[] args) {
         String str = "faaalllaaafellkiii";
 
-        System.out.println(tripple(str));
+        System.out.println(triple(str));
     }
 
-    static int tripple(String str) {
+    private static int triple(String str) {
         char[] chars = str.toCharArray();
         int counter = 0;
         for (int i = 2; i < chars.length; i++) {

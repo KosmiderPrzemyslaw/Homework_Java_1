@@ -8,11 +8,11 @@ public class Main7 {
         System.out.println(censor(str, words));
 
     }
-    static String censor(String str, String[] words){
+    private static String censor(String str, String[] words){
         String[] split = str.split(" ");
         for (int i = 0; i < split.length; i++) {
-            for (int j = 0; j < words.length; j++) {
-                if(split[i].equals(words[j])){
+            for (String word : words) {
+                if (split[i].equals(word)) {
                     split[i] = "****";
                 }
             }

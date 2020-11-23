@@ -9,7 +9,7 @@ public class Main1 {
         System.out.println(dogAge(5));
     }
 
-    static double dogAge(double dogAge) {
+    private static double dogAge(double dogAge) {
         double result;
 
         if(dogAge <= 2){

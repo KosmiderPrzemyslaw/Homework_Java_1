@@ -5,7 +5,7 @@ public class Main6 {
         String str = "Ala ma kota";
         System.out.println(replaceStr(str, "kota", "psa"));
     }
-    static String replaceStr(String str, String forReplace, String replacement){
+    private static String replaceStr(String str, String forReplace, String replacement){
         String[] split = str.split(" ");
         StringBuilder stringBuilder = new StringBuilder();
         for (String s: split

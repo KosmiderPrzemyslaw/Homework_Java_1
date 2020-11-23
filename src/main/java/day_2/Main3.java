@@ -6,7 +6,7 @@ public class Main3 {
         System.out.println(upperCase(message, 4));
     }
 
-    static String upperCase(String str, int index) {
+    private static String upperCase(String str, int index) {
 
         char[] chars = str.toCharArray();
         for (int i = 0; i < str.length(); i++) {

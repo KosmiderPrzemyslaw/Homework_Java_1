@@ -6,7 +6,7 @@ public class Main2 {
         System.out.println(encode(message, 2));
     }
 
-    static String encode(String str, int shift) {
+    private static String encode(String str, int shift) {
         char[] chars = str.toCharArray();
         int[] number = new int[str.length()];
         StringBuilder strToReturn = new StringBuilder();

@@ -6,7 +6,7 @@ public class Main5 {
         System.out.println(replaceChar(str, 'o', 'k'));
     }
 
-    static String replaceChar(String str, char forReplace, char replacement) {
+    private static String replaceChar(String str, char forReplace, char replacement) {
         char[] strToCharArray = str.toCharArray();
         StringBuilder stringBuilder = new StringBuilder();
         for (char c : strToCharArray

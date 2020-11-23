@@ -9,7 +9,7 @@ public class Main4 {
         }
     }
 
-    public static int toInt(String string) {
+    private static int toInt(String string) {
         return Integer.parseInt(string);
     }
 }
