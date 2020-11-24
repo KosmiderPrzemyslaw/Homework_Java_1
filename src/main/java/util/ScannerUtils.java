@@ -28,4 +28,11 @@ public class ScannerUtils {
         }
         return scanner.nextBigDecimal();
     }
+
+    public static String getString(String prompt) {
+        Scanner scanner = new Scanner(System.in);
+        System.out.println(prompt);
+
+        return scanner.nextLine();
+    }
 }

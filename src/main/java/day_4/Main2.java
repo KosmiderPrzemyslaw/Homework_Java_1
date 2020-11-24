@@ -4,7 +4,7 @@ import java.io.*;
 
 public class Main2 {
     public static void main(String[] args) {
-
+        System.out.println(count("/home/przemysaw/IdeaProjects/KAT_JEE_W_03_Podstawy/b_Zadania_Domowe/a_Dzien_4/textDoMain3.txt"));
     }
 
     private static int count(String fileName) {
