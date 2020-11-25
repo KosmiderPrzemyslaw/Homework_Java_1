@@ -1,2 +1,4 @@
 first line
 second line
+use print write method use append charsequencefile writer first linefile writer second line
+ file writer third line
