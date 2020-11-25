@@ -13,7 +13,7 @@ public class Main3 {
         System.out.println("Podana liczba : " + anInt);
 
 
-        BigDecimal bigDecimal = ScannerUtils.getBigDecimal("Podaj kwotę po przecinku: ");
+        BigDecimal bigDecimal = ScannerUtils.getBigDecimal("Podaj kwotę, zaokrąglę do 2 miejsc po przecinku: ");
 
         DecimalFormat decimalFormat = new DecimalFormat("##.00");
         decimalFormat.format(bigDecimal);
